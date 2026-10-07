@@ -1,0 +1,6 @@
+interface:
+  display_name: 'WebView PM'
+  short_description: 'Guide PMs through MBANK WebView projects.'
+  default_prompt: >-
+    Use $webview-pm to plan this MBANK WebView project, identify the next
+    coordination steps, and prepare the required request or email draft.

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mbank-webview-pm",
+  "version": "0.1.0",
+  "description": "PM workflow and standalone knowledge base for MBANK WebView projects.",
+  "author": {
+    "name": "MDigital"
+  },
+  "keywords": ["mbank", "webview", "project-management"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MBANK WebView PM",
+        "shortDescription": "PM guide for MBANK WebView",
+        "longDescription": "Plan and coordinate MBANK WebView projects, prepare Jira requests and setup emails, gather Bridge settings, request deeplinks, and coordinate test and production launch.",
+        "developerName": "MDigital",
+        "category": "Productivity",
+        "defaultPrompt": "Use $webview-pm to plan this MBANK WebView project and prepare the next PM request."
+      }
+    }
+  }
+}

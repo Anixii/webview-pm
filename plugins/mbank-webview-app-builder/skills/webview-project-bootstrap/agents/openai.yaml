@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView Project Bootstrap'
+  short_description: 'Prepare an empty folder as a WebView project.'
+  default_prompt: 'Use $webview-project-bootstrap to create and verify an MBANK WebView project in this empty folder.'

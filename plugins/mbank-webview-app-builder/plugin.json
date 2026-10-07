@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mbank-webview-app-builder",
+  "version": "0.1.0",
+  "description": "Prepare and build MBANK React WebView projects with bundled knowledge and a versioned template.",
+  "keywords": ["mbank", "webview", "react", "forms", "mobile-bridge"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MBANK WebView App Builder",
+        "shortDescription": "Create and develop MBANK WebView projects.",
+        "longDescription": "Bootstrap an empty folder from a versioned template, build screens and forms, integrate navigation and MBANK Bridge, and investigate WebView bugs.",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Use $webview-app-builder to create a WebView project in this empty folder and implement the supplied brief.",
+          "Use $webview-app-builder to implement this screen using the existing project and bundled WebView rules."
+        ]
+      }
+    }
+  }
+}

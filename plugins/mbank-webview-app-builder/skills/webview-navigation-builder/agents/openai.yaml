@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView Navigation Builder'
+  short_description: 'Build WebView routes, back, and close behavior.'
+  default_prompt: 'Use $webview-navigation-builder to design or implement this MBANK WebView navigation flow.'

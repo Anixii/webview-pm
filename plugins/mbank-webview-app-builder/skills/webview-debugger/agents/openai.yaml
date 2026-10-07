@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView Debugger'
+  short_description: 'Debug MBANK WebView bugs with structured reports.'
+  default_prompt: 'Use $webview-debugger to analyze or fix this MBANK WebView bug and produce a structured report.'

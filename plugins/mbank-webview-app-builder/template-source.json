@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/Anixii/webview-template.git",
+  "ref": "d296db8389c9c79265b8a7447ea422ac7116291e",
+  "packageManager": "yarn",
+  "verificationScripts": ["lint:type", "build"]
+}

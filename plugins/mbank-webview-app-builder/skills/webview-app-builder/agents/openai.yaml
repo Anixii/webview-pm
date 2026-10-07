@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView App Builder'
+  short_description: 'Prepare and build MBANK WebView projects.'
+  default_prompt: 'Use $webview-app-builder to prepare this project and implement the supplied WebView brief.'

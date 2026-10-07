@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView Bridge Builder'
+  short_description: 'Build typed MBANK bridge integrations.'
+  default_prompt: 'Use $webview-bridge-builder to design or implement this MBANK WebView Bridge action.'

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'WebView UI Builder'
+  short_description: 'Build MBANK WebView pages and UI flows.'
+  default_prompt: 'Use $webview-ui-builder to design and implement this MBANK WebView page in the current project.'
