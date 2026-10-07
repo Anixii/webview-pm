@@ -1,0 +1,20 @@
+{
+  "name": "mbank-webview-pm-marketplace",
+  "interface": {
+    "displayName": "MBANK WebView PM"
+  },
+  "plugins": [
+    {
+      "name": "mbank-webview-pm",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mbank-webview-pm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
